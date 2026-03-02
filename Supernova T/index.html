@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>SuperNova Market</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>SuperNova Market</h1>
+    <p>Tu tienda de autoservicio inteligente</p>
+</header>
+
+<nav>
+    <a href="#abarrotes">Abarrotes</a>
+    <a href="#lacteos">Lácteos</a>
+    <a href="#bebidas">Bebidas</a>
+    <a href="#limpieza">Limpieza</a>
+    <a href="#higiene">Higiene Personal</a>
+    <a href="#cuestionario">Cuestionario</a>
+    <a href="#rubrica">Rúbrica</a>
+</nav>
+
+<main>
+
+<!-- ================= ABARROTES ================= -->
+
+<section id="abarrotes">
+<h2>Abarrotes</h2>
+<div class="grid">
+
+<div class="producto">
+<h3>Arroz 1kg</h3>
+<p>$28 MXN</p>
+<button onclick="verMas('Arroz blanco 1kg marca comercial.')">Ver más</button>
+</div>
+
+<div class="producto">
+<h3>Frijol 1kg</h3>
+<p>$36 MXN</p>
+<button onclick="verMas('Frijol negro premium 1kg.')">Ver más</button>
+</div>
+
+<div class="producto">
+<h3>Azúcar 1kg</h3>
+<p>$30 MXN</p>
+<button onclick="verMas('Azúcar estándar refinada.')">Ver más</button>
+</div>
+
+<div class="producto">
+<h3>Sal 1kg</h3>
+<p>$18 MXN</p>
+<button onclick="verMas('Sal yodada fina.')">Ver más</button>
+</div>
+
+<div class="producto">
+<h3>Aceite 900ml</h3>
+<p>$45 MXN</p>
+<button onclick="verMas('Aceite vegetal comestible.')">Ver más</button>
+</div>
+
+<div class="producto">
+<h3>Atún lata</h3>
+<p>$22 MXN</p>
+<button onclick="verMas('Atún en agua 140g.')">Ver más</button>
+</div>
+
+<div class="producto">
+<h3>Sopa pasta</h3>
+<p>$12 MXN</p>
+<button onclick="verMas('Pasta corta 200g.')">Ver más</button>
+</div>
+
+<div class="producto">
+<h3>Harina 1kg</h3>
+<p>$24 MXN</p>
+<button onclick="verMas('Harina de trigo.')">Ver más</button>
+</div>
+
+<div class="producto">
+<h3>Cereal 500g</h3>
+<p>$58 MXN</p>
+<button onclick="verMas('Cereal de maíz fortificado.')">Ver más</button>
+</div>
+
+<div class="producto">
+<h3>Galletas</h3>
+<p>$20 MXN</p>
+<button onclick="verMas('Galletas dulces paquete.')">Ver más</button>
+</div>
+
+</div>
+</section>
+
+<!-- ================= LACTEOS ================= -->
+
+<section id="lacteos">
+<h2>Lácteos</h2>
+<div class="grid">
+
+<div class="producto"><h3>Leche 1L</h3><p>$26 MXN</p><button onclick="verMas('Leche entera pasteurizada.')">Ver más</button></div>
+<div class="producto"><h3>Queso Oaxaca</h3><p>$120 MXN/kg</p><button onclick="verMas('Queso fresco artesanal.')">Ver más</button></div>
+<div class="producto"><h3>Yogurt 1L</h3><p>$38 MXN</p><button onclick="verMas('Yogurt natural.')">Ver más</button></div>
+<div class="producto"><h3>Mantequilla</h3><p>$42 MXN</p><button onclick="verMas('Mantequilla 225g.')">Ver más</button></div>
+<div class="producto"><h3>Crema 250ml</h3><p>$25 MXN</p><button onclick="verMas('Crema ácida.')">Ver más</button></div>
+<div class="producto"><h3>Leche deslactosada</h3><p>$29 MXN</p><button onclick="verMas('Leche sin lactosa.')">Ver más</button></div>
+<div class="producto"><h3>Queso panela</h3><p>$98 MXN/kg</p><button onclick="verMas('Queso bajo en grasa.')">Ver más</button></div>
+<div class="producto"><h3>Gelatina</h3><p>$15 MXN</p><button onclick="verMas('Gelatina sabor fresa.')">Ver más</button></div>
+<div class="producto"><h3>Flan</h3><p>$18 MXN</p><button onclick="verMas('Postre lácteo.')">Ver más</button></div>
+<div class="producto"><h3>Helado 1L</h3><p>$75 MXN</p><button onclick="verMas('Helado vainilla.')">Ver más</button></div>
+
+</div>
+</section>
+
+<!-- PUEDES DUPLICAR MISMO FORMATO PARA BEBIDAS, LIMPIEZA E HIGIENE -->
+
+<section id="cuestionario">
+<h2>Cuestionario</h2>
+
+<form>
+<label>¿Qué tan fácil fue usar la interfaz?</label>
+<select>
+<option>Muy fácil</option>
+<option>Fácil</option>
+<option>Regular</option>
+<option>Difícil</option>
+</select>
+
+<label>¿Encontraste los productos fácilmente?</label>
+<select>
+<option>Sí</option>
+<option>No</option>
+</select>
+
+<label>¿Te gustó el diseño?</label>
+<select>
+<option>Mucho</option>
+<option>Normal</option>
+<option>Poco</option>
+</select>
+
+<label>Comentarios adicionales:</label>
+<textarea rows="4"></textarea>
+
+<button type="submit">Enviar</button>
+</form>
+</section>
+
+<section id="rubrica">
+<h2>Rúbrica del Proyecto</h2>
+
+<p><strong>Diseño:</strong> Interfaz moderna con jerarquía visual clara.</p>
+<p><strong>Usabilidad:</strong> Navegación por categorías intuitiva.</p>
+<p><strong>Accesibilidad:</strong> Botones grandes y contraste adecuado.</p>
+<p><strong>Funcionalidad:</strong> Botones "Ver más" operativos.</p>
+<p><strong>QR:</strong> Se implementará QR permanente que redirige al menú alojado en servidor estable.</p>
+
+</section>
+
+</main>
+
+<footer>
+<p>© 2026 SuperNova Market</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
